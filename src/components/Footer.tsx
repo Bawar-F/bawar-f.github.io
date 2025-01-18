@@ -45,7 +45,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t text-center text-gray-600">
-          <p>&copy; 2024 Your AI Company. All rights reserved.</p>
+          <p>&copy; 2024 Our Startup Name. All rights reserved.</p>
         </div>
       </div>
     </footer>
