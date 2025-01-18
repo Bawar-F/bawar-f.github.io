@@ -34,14 +34,14 @@ export const Features = () => {
           {features.map((feature, index) => (
             <div
               key={feature.title}
-              className="p-6 rounded-lg border bg-white shadow-sm hover:shadow-md transition-shadow"
+              className="p-6 rounded-lg border bg-background shadow-sm hover:shadow-md transition-shadow"
               style={{
                 animationDelay: `${index * 100}ms`,
               }}
             >
               <feature.icon className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <p className="text-muted-foreground">{feature.description}</p>
             </div>
           ))}
         </div>
